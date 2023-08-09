@@ -383,7 +383,7 @@ body {
 
 
 /*------------ MODAL-BACKDROP ------------*/
-.order-service-backdrop {
+.backdrop {
     position: fixed;
     z-index: 999;
     top: 0;
@@ -394,9 +394,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--color-modal-overlay-navy-blue-modal);
+    transition-property: opacity, visibility;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
 }
 
-.order-service-modal {
+.modal {
     position: relative;
     width: 408px;
     height: 584px;
@@ -406,7 +409,7 @@ body {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
-.order-modal-btn-close {
+.modal-btn-close {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -421,20 +424,16 @@ body {
     padding: 8px;    
 }
 
+.backdrop.is-hidden {
+    transition-duration: 250ms;
+    transition-timing-function: ease-out;
+}
+
 .is-hidden {
     visibility: hidden;
     opacity: 0;
-    pointer-events: auto;
-    /* transition-property: scale, opacity;
-    transition-duration: 500ms;
-    transition-timing-function: ease-in-out; */
+    pointer-events: none;    
 }
-
-/* .is-hidden:enabled {
-    scale: 50% 50%;
-    opacity: 1;
-} */
-
 /*------------ /MODAL-BACKDROP ------------*/
 
 
