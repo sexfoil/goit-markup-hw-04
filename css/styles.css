@@ -252,8 +252,6 @@ body {
 .nav-active {
     position: relative;
     color: var(--color-pressed-state-ocean);
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .nav-active::after {
@@ -291,16 +289,26 @@ body {
 
 .page-footer>.container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-content {
+    margin-right: 120px;
 }
 
 .footer-socials {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+}
+
+.footer-socials>p {
+    font-weight: 500;
+    color: var(--color-white-background-white);
+    margin-bottom: 16px;
 }
 
 .footer-socials>.social-list {
+    gap: 16px;
     align-self: center;
 }
 
@@ -312,7 +320,8 @@ body {
 
 }
 
-.footer-social-item>.social-item-icon:hover {
+.footer-social-item>.social-item-icon:hover,
+.footer-social-item>.social-item-icon:focus {
     background-color: var(--color-success-green);
 }
 /*------------ /FOOTER ------------*/
