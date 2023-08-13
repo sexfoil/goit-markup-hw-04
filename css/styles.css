@@ -461,6 +461,15 @@ body {
 /*------------ /MODAL-BACKDROP ------------*/
 
 
+/*------------ MODAL-FORM ------------*/
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+/*------------ /MODAL-FORM ------------*/
+
+
 /*------------ HERO-SCREEN ------------*/
 .hero-screen {
     position: relative;
