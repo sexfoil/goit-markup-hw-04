@@ -26,6 +26,7 @@
     --letter-spacing-main: .02em;
     --letter-spacing-small: .04em;
 }
+
 /*------------ /VARIABLES ------------*/
 
 
@@ -62,6 +63,7 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 /*------------ /NORMOLIZING ------------*/
 
 
@@ -161,8 +163,9 @@ body {
 
 .section-item {
     display: flex;
-    flex-basis: 100%; 
+    flex-basis: 100%;
 }
+
 /*------------ /GENERAL ------------*/
 
 
@@ -176,6 +179,7 @@ body {
     letter-spacing: .03em;
     text-transform: uppercase;
 }
+
 /*------------ /LOGO ------------*/
 
 
@@ -185,9 +189,9 @@ body {
     justify-content: center;
     color: var(--color-dark-navy-blue);
     border-bottom: 1px solid var(--color-accent-cornflower);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-                0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-content {
@@ -211,7 +215,7 @@ body {
     gap: 40px;
 }
 
-.nav-group > li {
+.nav-group>li {
     display: inherit;
 }
 
@@ -266,6 +270,7 @@ body {
     background-color: var(--color-pressed-state-ocean);
     border-radius: 2px;
 }
+
 /*------------ /HEADER ------------*/
 
 
@@ -326,6 +331,7 @@ body {
 .footer-social-item>.social-item-icon:focus {
     background-color: var(--color-success-green);
 }
+
 /*------------ /FOOTER ------------*/
 
 
@@ -341,9 +347,9 @@ body {
     background-color: var(--color-light-cloud);
     border: 1px solid var(--color-accent-cornflower);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover,
@@ -351,9 +357,9 @@ body {
     color: var(--color-white-background-white);
     background-color: var(--color-pressed-state-ocean);
     border: 1px solid transparent;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 
-                0px 2px 1px 0px rgba(0, 0, 0, 0.08), 
-                0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+        0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .cta-btn {
@@ -372,6 +378,7 @@ body {
 .cta-btn:focus {
     background-color: var(--color-pressed-state-ocean);
 }
+
 /*------------ /BUTTONS ------------*/
 
 
@@ -391,9 +398,10 @@ body {
     border-radius: 50%;
 }
 
-.social-icon-image {    
+.social-icon-image {
     fill: var(--color-light-cloud);
 }
+
 /*------------ /SOCIALS ------------*/
 
 
@@ -405,9 +413,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(46, 47, 66, 0.4);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-                visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -419,9 +427,9 @@ body {
     min-height: 584px;
     border-radius: 4px;
     background: var(--color-modal-background-dairy);
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 
-                0px 1px 3px 0px rgba(0, 0, 0, 0.12), 
-                0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -439,7 +447,7 @@ body {
     background-color: var(--color-accent-cornflower);
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn-close:hover,
@@ -456,18 +464,10 @@ body {
 .is-hidden {
     visibility: hidden;
     opacity: 0;
-    pointer-events: none;    
+    pointer-events: none;
 }
+
 /*------------ /MODAL-BACKDROP ------------*/
-
-
-/*------------ MODAL-FORM ------------*/
-.modal-form {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-/*------------ /MODAL-FORM ------------*/
 
 
 /*------------ HERO-SCREEN ------------*/
@@ -478,22 +478,23 @@ body {
     margin: 0 auto;
     color: var(--color-white-background-white);
     max-width: 1440px;
-    background-image:   linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                        url("../images/hero-people-office-full.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/hero-people-office-full.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.hero-content {    
+.hero-content {
     flex-direction: column;
     gap: 48px;
     align-items: center;
 }
 
-.hero-content > h1 {
+.hero-content>h1 {
     max-width: 496px;
 }
+
 /*------------ /HERO-SCREEN ------------*/
 
 
@@ -522,6 +523,7 @@ body {
 .feature-name {
     margin-bottom: 8px;
 }
+
 /*------------ /FEATURES-SCREEN ------------*/
 
 
@@ -534,7 +536,7 @@ body {
     flex-direction: column;
 }
 
-.business-content > h2 {
+.business-content>h2 {
     margin-bottom: 72px;
 }
 
@@ -547,6 +549,7 @@ body {
     width: calc((100% - 2*24px)/3);
     border: 1px solid var(--color-accent-cornflower);
 }
+
 /*------------ /BUSINESS-SCREEN ------------*/
 
 
@@ -559,7 +562,7 @@ body {
     flex-direction: column;
 }
 
-.team-content > h2 {
+.team-content>h2 {
     margin-bottom: 72px;
 }
 
@@ -571,9 +574,9 @@ body {
 .team-card {
     background-color: var(--color-white-background-white);
     border-radius: 0 0 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-card-textblock {
@@ -596,6 +599,7 @@ body {
 .team-card-social-item>.social-item-icon:focus {
     background-color: var(--color-pressed-state-ocean);
 }
+
 /*------------ /TEAM-SCREEN ------------*/
 
 
@@ -609,7 +613,7 @@ body {
 }
 
 .customer-group {
-    display: flex;    
+    display: flex;
     gap: 24px;
 }
 
@@ -628,8 +632,8 @@ body {
     border: 1px solid var(--color-subtle-text-light-slate);
     border-radius: 4px;
     color: var(--color-subtle-text-light-slate);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-icon-image {
@@ -639,7 +643,9 @@ body {
 .customer-icon:hover,
 .customer-icon:focus {
     border-color: var(--color-pressed-state-ocean);
-    color: var(--color-pressed-state-ocean);}
+    color: var(--color-pressed-state-ocean);
+}
+
 /*------------ /CUSTOMER-SCREEN ------------*/
 
 
@@ -656,7 +662,7 @@ body {
 
 .filter-group {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
 }
@@ -682,9 +688,9 @@ body {
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item-image {
@@ -692,7 +698,7 @@ body {
     overflow: hidden;
 }
 
-.portfolio-item-overlay {    
+.portfolio-item-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -719,7 +725,8 @@ body {
     border-top: none;
 }
 
-.portfolio-card-textblock > h2 {
+.portfolio-card-textblock>h2 {
     margin-bottom: 8px;
 }
+
 /*------------ /PORTFOLIO-SCREEN ------------*/
